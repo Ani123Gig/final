@@ -12,6 +12,7 @@ position: fixed;
 width: 100%;
  top: 0;
 z-index: 1000;
+
 }
 
 
@@ -717,7 +718,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-
+/* 
 .active {
     color: #D5906E;
 font-family: Inter;
@@ -725,7 +726,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-}
+} */
 
 
 

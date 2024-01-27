@@ -61,13 +61,21 @@ footer {
  @media (max-width: 745px) {
 
     body {
-        /* overflow: hidden; Hide scrollbars */
+        overflow: hidden; 
       } 
     header {
         padding: 26px 15px; /* Adjust padding for header at 745px and below */
         gap: 15px; /* Adjust gap for header at 745px and below */
     }
+    .touch {
+   
+    margin-top: 160px;
+    margin-left: -230px;
+    }
 
+    .conts{
+        display: none;
+    }
     .ulclul {
         margin-left: 15px; /* Adjust margin for ulclul at 745px and below */
     }
@@ -208,7 +216,8 @@ display: none;
     .map{
         width: 50px;
         height: 100px;
-        margin-left: -250px;
+        margin-left: 250px;
+        margin-top: 100px;
     }
     
     .burger-menu{
@@ -223,7 +232,8 @@ display: none;
     .responsive-nav{
         padding: 20px;
         margin-top: 100px;
-        margin-left: -200px;
+        margin-left: 50px;
+        width: 200px;
     }
     
     .burger-menu{
